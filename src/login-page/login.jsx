@@ -1,5 +1,6 @@
 import React from "react";
-import birthdayCakeLogo from '/home/sandip/Documents/Happy-Birthday/src/assets/logo/birthday-cake.png';
+import birthdayCakeLogo from '/home/sandip/Documents/Happy-Birthday/src/images/birthday-cake.png';
+import './login.css';
 
 function Login() {
     
@@ -12,7 +13,7 @@ function Login() {
             </div>
             <div className="login-form">
                 <h3>Sign in</h3>
-                <form onSubmit={login}>
+                <form >
                     <label htmlFor="email">Email</label>
                     <input type="email" id="email" required />
                     <label htmlFor="password">Password</label>
